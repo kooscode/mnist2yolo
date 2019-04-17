@@ -24,7 +24,7 @@ def get_labels(labelf, n):
 
 def output_txt(outf, label):
     o = open(outf, "w")
-    o.write(str(label) + " 0 0 1 1\n")
+    o.write(str(label) + " 0.5 0.5 1 1\n")
     o.close()
 
 def output_png(images, labels, prefix):

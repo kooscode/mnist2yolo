@@ -11,4 +11,4 @@ From: http://yann.lecun.com/exdb/mnist/
 
 # SYNTAX #
 run:
-    bash mnist2yolo.sh
+    sh mnist2yolo.sh
